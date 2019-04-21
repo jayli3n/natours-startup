@@ -7,16 +7,14 @@
 @import 'base/typography';
 @import 'base/utilities';
 
-@import 'abstract/functions';
-@import 'abstract/mixins';
-@import 'abstract/variables';
-
 @import 'components/button';
 @import 'components/composition';
+@import 'components/feature-box';
+
 
 @import 'layouts/header';
 @import 'layouts/grid';
 
 @import 'pages/home';
 
-                      
+                       

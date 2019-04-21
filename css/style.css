@@ -195,6 +195,9 @@ body {
     transform: scale(0.95);
     box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.3); }
 
+.feature-box {
+  padding: 3rem; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7)), url(../img/hero.jpg);
