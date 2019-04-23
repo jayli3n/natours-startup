@@ -61,7 +61,8 @@ By defining these reusable `@keyframes` blocks, I was able to animate the hero t
 		opacity: 1;
 		transform: translateY(0);
 	}
-}```
+}
+```
 
 
 ### Card Animations
@@ -107,7 +108,8 @@ Then allow the backside to be initially turned 180 degrees. Then magic happens a
 	&:hover &__side--back{
 		transform: rotateY(0);
 	}
-}```
+}
+```
 
 ### Image Hover Transitions
 ----
@@ -138,7 +140,8 @@ Hovering causes the target image to grow and increase its shadow while the rest 
 		transform: scale(0.95);
 		box-shadow: 0 0.5rem 2.5rem rgba($color-black, 0.3);
 	}
-}```
+}
+```
 
 
 ### Story Section: hover effect & background video
