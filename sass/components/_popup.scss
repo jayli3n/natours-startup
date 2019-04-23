@@ -11,6 +11,10 @@
 	visibility: hidden;
 	transition: all 0.3s;
 
+	@include respond(tab-p){
+		overflow: scroll;
+	}
+
 	&__content{
 		width: 75%;
 		background-color: $color-white;
@@ -25,11 +29,19 @@
 
 		transition: all 0.5s 0.2s;
 		opacity: 0;
+
+		@include respond(tab-p){
+			text-align: center;
+		}
 	}
 
 	&__left{
 		width: 33.33333333%;
 		display: table-cell;
+
+		@include respond(tab-p){
+			display: none;
+		}
 	}
 
 	&__right{
@@ -37,6 +49,11 @@
 		display: table-cell;
 		vertical-align: middle;
 		padding: 3rem 5rem;
+
+		@include respond(tab-p){
+			display: inline-block;
+			width: 95%;
+		}
 	}
 
 	&__img{
@@ -60,6 +77,10 @@
 		-moz-hyphens: auto;
 		-ms-hyphens: auto;
 		hyphens: auto;
+
+		@include respond(phone){
+			columns: 1;
+		}
 	}
 
 	&:target{

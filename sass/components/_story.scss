@@ -13,6 +13,21 @@
 		transform: skewX(9deg);
 	}
 
+	@include respond(tab-p){
+		width: 100%;
+		padding: 4rem 7rem;
+	}
+
+	@include respond(phone){
+		width: 100%;
+		transform: skewX(0);
+		padding: 4rem 7rem;
+
+		& > *{
+			transform: skewX(0);
+		}
+	}
+
 	&__shape{
 		width: 15rem;
 		height: 15rem;
@@ -26,6 +41,10 @@
 
 		-webkit-clip-path: circle(50% at 50% 50%);
 		clip-path: circle(50% at 50% 50%);
+
+		@include respond(phone){
+			transform: translateX(-3rem) skewX(0);
+		}
 	}
 
 	&__image{

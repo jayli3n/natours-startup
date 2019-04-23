@@ -10,6 +10,16 @@
 		background-image: radial-gradient($color-primary-light, $color-primary-dark);
 		z-index: 1000;
 		transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+
+		@include respond(tab-p){
+			top: 4.5rem;
+			right: 4.5rem;
+		}
+
+		@include respond(phone){
+			top: 3.5rem;
+			right: 3.5rem;
+		}
 	}
 
 	&__label{
@@ -28,6 +38,16 @@
 		&:hover{
 			cursor: pointer;
 			transform: scale(1.05);
+		}
+
+		@include respond(tab-p){
+			top: 4rem;
+			right: 4rem;
+		}
+
+		@include respond(phone){
+			top: 3rem;
+			right: 3rem;
 		}
 	}
 
