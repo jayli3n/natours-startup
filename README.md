@@ -1,5 +1,6 @@
 # [Natours-Startup](https://jayli3.github.io/natours-startup/ "Natours-Startup")
 `Live:` https://jayli3.github.io/natours-startup/
+
 A mockup landing page for a travel agency startup. Completed with HTML & CSS.
 
 ##Goals
