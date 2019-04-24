@@ -3,20 +3,20 @@
 
 A mockup landing page for a travel agency startup. Completed with HTML & CSS.
 
-##Goals
+## Goals
 - Be up to speed with the most modern and advanced CSS properties and techniques;
 - Be ready to build responsive layouts for all kind of devices and situations;
 - Truly understand how CSS works behind the scenes;
 - Be able to architect large CSS codebases for reusability and maintainability using Sass.
 
-##Features & Code Snippets
+## Features & Code Snippets
 The key features of this landing page are extracted and summarized below for future reference.
 
 Project utilizes the **7-1 sass pattern** as well as the **BEM** (Block Element Modifier) to create scalable and maintainable code.
 
 ***Note that the code snippets are only the core codes that make the feature work, other styling (padding, margin, color etc) have been omitted in the snippet to save space.**
 
-###`@keyframes` animations
+### `@keyframes` animations
 ----
 By defining these reusable `@keyframes` blocks, I was able to animate the hero title, text and button.
 
@@ -213,7 +213,7 @@ Now the wrapping around of the text to the shape of the image is achieved by usi
 ----
 The **background video** is defined in the html: `autoplay`, `muted` and `loop`.
 The `source` taggives the browser a backup video of a different file extension to fall back to.
-#####HTML
+##### HTML
 ```html
 <div class="bg-video">
     <video class="bg-video__content" autoplay muted loop>
@@ -225,7 +225,7 @@ The `source` taggives the browser a backup video of a different file extension t
 ```
 Styles below, key to make it `position: absolute` with a low `z-index`.
 
-#####SCSS
+##### SCSS
 ```css
 .bg-video{
 	position: absolute;
@@ -255,7 +255,7 @@ The radio buttons are custom styled using `::after` css pseudo element behind th
 
 [![Custom Radio Buttons](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif04.gif?raw=true "Custom Radio Buttons")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif04.gif?raw=true "Custom Radio Buttons")
 
-#####Core Code:
+##### Core Code:
 ```scss
 .form{
 	
@@ -437,22 +437,22 @@ A general rule to follow when applying `@media` queries is to do it in this  ord
 3. Components
 4. The rest
 
-####Cards:
+#### Cards:
 ----
 No hover feature on touch devices, so everything is in one card.
 [![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg01.jpg?raw=true "Responsive Design")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg01.jpg?raw=true "Responsive Design")
 
-####Form:
+#### Form:
 ----
 Compact and minimal.
 [![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg02.jpg?raw=true "aaa")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg02.jpg?raw=true "aaa")
 
-####Story:
+#### Story:
 ----
 Not skewed, but a rectangle.
 [![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg03.jpg?raw=true "aaa")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg03.jpg?raw=true "aaa")
 
-####Images:
+#### Images:
 ----
 Clean.
 [![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")
@@ -470,7 +470,7 @@ Clean.
   }
 ```
 
-##Handy NPM Scripts:
+## Handy NPM Scripts:
 ```json
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
