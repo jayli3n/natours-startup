@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jayli3/natours-startup.git"
+    "url": "git+https://github.com/jayli3n/natours-startup.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jayli3/natours-startup/issues"
+    "url": "https://github.com/jayli3n/natours-startup/issues"
   },
-  "homepage": "https://github.com/jayli3/natours-startup#readme",
+  "homepage": "https://github.com/jayli3n/natours-startup#readme",
   "dependencies": {
     "live-server": "^1.2.1"
   },

@@ -1,5 +1,5 @@
-# [Natours-Startup](https://jayli3.github.io/natours-startup/ "Natours-Startup")
-`Live:` https://jayli3.github.io/natours-startup/
+# [Natours-Startup](https://jayli3n.github.io/natours-startup/ "Natours-Startup")
+`Live:` https://jayli3n.github.io/natours-startup/
 
 A mockup landing page for a travel agency startup. Completed with HTML & CSS.
 
@@ -20,7 +20,7 @@ Project utilizes the **7-1 sass pattern** as well as the **BEM** (Block Element 
 ----
 By defining these reusable `@keyframes` blocks, I was able to animate the hero title, text and button.
 
-[![Hero animations](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif01.gif?raw=true "Hero animations")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif01.gif?raw=true "Hero animations")
+[![Hero animations](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif01.gif?raw=true "Hero animations")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif01.gif?raw=true "Hero animations")
 ```scss
 @keyframes moveInLeft{
 	0%{
@@ -72,7 +72,7 @@ Definitely the most difficult and fun to implement. It is achieved by creating 2
 First I define`backface-visibility: hidden;` so that the backside of any slide will not be visible when turned.
 Then allow the backside to be initially turned 180 degrees. Then magic happens after applying `:hover` transitions!
 
-[![ Cards Effects](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif07.gif?raw=true " Cards Effects")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif07.gif?raw=true " Cards Effects")
+[![ Cards Effects](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif07.gif?raw=true " Cards Effects")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif07.gif?raw=true " Cards Effects")
 
 ```scss
 .card{
@@ -116,7 +116,7 @@ Then allow the backside to be initially turned 180 degrees. Then magic happens a
 ----
 Hovering causes the target image to grow and increase its shadow while the rest of the images shrink and decrease its shadows to create a 3D effect.
 
-[![Image Effects](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif06.gif?raw=true "Image Effects")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif06.gif?raw=true "Image Effects")
+[![Image Effects](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif06.gif?raw=true "Image Effects")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif06.gif?raw=true "Image Effects")
 
 ```scss
 .composition{
@@ -209,7 +209,7 @@ Now the wrapping around of the text to the shape of the image is achieved by usi
 }
 ```
 
-[![Hover Effects](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif02.gif?raw=true "Hover Effects")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif02.gif?raw=true "Hover Effects")
+[![Hover Effects](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif02.gif?raw=true "Hover Effects")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif02.gif?raw=true "Hover Effects")
 ----
 The **background video** is defined in the html: `autoplay`, `muted` and `loop`.
 The `source` taggives the browser a backup video of a different file extension to fall back to.
@@ -246,14 +246,14 @@ Styles below, key to make it `position: absolute` with a low `z-index`.
 }
 ```
 
-[![Hover Effects 2](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif03.gif?raw=true "Hover Effects 2")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif03.gif?raw=true "Hover Effects 2")
+[![Hover Effects 2](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif03.gif?raw=true "Hover Effects 2")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif03.gif?raw=true "Hover Effects 2")
 
 
 ### Custom Radio Buttons
 ----
 The radio buttons are custom styled using `::after` css pseudo element behind the label.
 
-[![Custom Radio Buttons](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif04.gif?raw=true "Custom Radio Buttons")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif04.gif?raw=true "Custom Radio Buttons")
+[![Custom Radio Buttons](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif04.gif?raw=true "Custom Radio Buttons")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif04.gif?raw=true "Custom Radio Buttons")
 
 ##### Core Code:
 ```scss
@@ -317,7 +317,7 @@ The radio buttons are custom styled using `::after` css pseudo element behind th
 Main highlight I want to point out is the button. The button contains a couple hover effects, but the most interesting effect is when it's clicked; the 3 lines spins into a cross symbol.
 This is done by creating pseudo elements using `::before` and `::after` in place of a checkbox, when checked, the animations will play.
 
-[![Navbar Effects](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif05.gif?raw=true "Navbar Effects")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/gif05.gif?raw=true "Navbar Effects")
+[![Navbar Effects](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif05.gif?raw=true "Navbar Effects")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/gif05.gif?raw=true "Navbar Effects")
 
 ```SCSS
 .navigation{
@@ -440,22 +440,22 @@ A general rule to follow when applying `@media` queries is to do it in this  ord
 #### Cards:
 ----
 No hover feature on touch devices, so everything is in one card.
-[![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg01.jpg?raw=true "Responsive Design")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg01.jpg?raw=true "Responsive Design")
+[![Responsive Design](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg01.jpg?raw=true "Responsive Design")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg01.jpg?raw=true "Responsive Design")
 
 #### Form:
 ----
 Compact and minimal.
-[![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg02.jpg?raw=true "aaa")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg02.jpg?raw=true "aaa")
+[![Responsive Design](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg02.jpg?raw=true "aaa")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg02.jpg?raw=true "aaa")
 
 #### Story:
 ----
 Not skewed, but a rectangle.
-[![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg03.jpg?raw=true "aaa")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg03.jpg?raw=true "aaa")
+[![Responsive Design](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg03.jpg?raw=true "aaa")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg03.jpg?raw=true "aaa")
 
 #### Images:
 ----
 Clean.
-[![Responsive Design](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")](https://github.com/jayli3/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")
+[![Responsive Design](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")
 
 
 
