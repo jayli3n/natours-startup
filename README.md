@@ -454,7 +454,7 @@ Not skewed, but a rectangle.
 
 #### Images:
 ----
-Clean.
+Clean.<br>
 [![Responsive Design](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")](https://github.com/jayli3n/natours-startup/blob/master/readme_resources/jpg04.jpg?raw=true "aaa")
 
 
